@@ -19,15 +19,27 @@ p {
     letter-spacing: 20px;
     font-kerning:10px;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
 }
 
 #span-one {
     text-decoration: line-through 80px black solid;
     text-emphasis-color: red;    
+    }
+
+body {
+    text-shadow: 10px;
+    background-color: blue;
+    columns: 2;
 }
 
+h1 {
+    text-align: left;
 
+}
 
+#lstext {
+    color: yellow;
+}
 
 
