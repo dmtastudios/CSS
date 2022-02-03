@@ -1,0 +1,33 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 25px;
+}
+
+#span-one {
+    font-size: 4em;
+}
+
+#p-two {
+    font-style: italic;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 20px;
+    font-kerning:10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#span-one {
+    text-decoration: line-through 80px black solid;
+    text-emphasis-color: red;    
+}
+
+
+
+
+
