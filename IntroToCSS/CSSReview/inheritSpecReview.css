@@ -14,7 +14,11 @@ body {
   
   /* h2 is the most specific element selector we can use to style the h2 elements (More specific than the div) */
   h2 {
-    color: orange;
+    color: white;
+  }
+  #h2id {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
   }
   h3 {
       border-bottom: 5px;
@@ -71,3 +75,4 @@ a:hover {
     background-color: black;
     color: white;
 }
+
