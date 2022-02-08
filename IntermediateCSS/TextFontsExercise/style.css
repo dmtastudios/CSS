@@ -1,15 +1,31 @@
-/* Must import font (Press Start 2P) at the start of the CSS file */
+#starTrekBGImage {
+    background-position: center;
+    background-size: cover;
+
+}
+
+html {
+    font-family: 'Orbitron' , sans-serif;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+
 h4 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', 'Orbitron' cursive;
 
 }
 
 /* Personally, I can't stand working on a solid white background. ;) */
 body {
-    background-color: rgb(52, 52, 199); 
+    background-image: url("starTrek.jpg");
+    color: rgba(255, 255, 255, .6); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 
 
 h1 {
@@ -32,33 +48,43 @@ h1
     font-size: 50px;
     letter-spacing: 10px;
     text-align: center;
-    font-variant-caps: all-petite-caps;
+    text-transform: uppercase;    
     text-decoration: underline;
-
-
-
 
 }
 
-
-
-
 #series-movies {
     font-size: 20px;
-
 }
 
 #top-movies {
     font-size: 4
-
-
 }
 
 span {
     word-spacing: 200%;
+}
 
+h2, h3, h4 {
+    text-align: center;    
+}
 
+h2 {    
+    font-size: 2em;
+}
 
+li {
+    line-height: 2;
+    font-size: 1rem;
+}
 
+#characters {
+    font-size: 18px;
+}
+
+h4 {
+    letter-spacing: 15px;
+    font-family: 'Press Start 2P',
+    cursive; 
 }
 
