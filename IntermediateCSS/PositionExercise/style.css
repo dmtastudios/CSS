@@ -80,6 +80,46 @@ body {
   
   /* START BELOW THIS LINE */
 
-  /* z-axis or zero is the default position in HTML */
-
+    /* position static */
+    
+  #power {
+      position: relative;
+      right: 225px;
+  }
   
+  #space {
+      position: relative;
+      top: 115px;
+      right: 0;
+  }
+
+  #soul {
+      position: absolute;
+      bottom: 0;
+      right 0;
+  }
+
+  #reality {
+      position:absolute;
+      right: 0;
+      bottom: 0;
+  }
+
+  #mind {
+      position: fixed;
+      right: 0;
+  }
+
+  #time {
+      position: fixed;
+      top: 0;
+      right: 0;
+  }
+
+  h1 {
+      position: sticky;
+      top:0;
+      z-index: 3;
+  }
+
+      
