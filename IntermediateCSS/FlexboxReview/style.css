@@ -129,7 +129,7 @@ p{
 }
 .child3{
     width: 25%;
-    height: 100px;
+    height: 100px; 
     background-color: rgb(245, 245, 3);
     z-index: 1;
     opacity: 75%;
