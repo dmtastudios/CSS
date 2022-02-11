@@ -16,7 +16,7 @@
     /* align-items: center;     */
     /* align-items: flex-end; */
     /* flex-direction: column; */
-    /* flex-direction: row-reverse;     */
+    flex-direction: row-reverse;    
 }
 
 html{
@@ -26,49 +26,103 @@ html{
 p{
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
+    transform: rotate(-18deg);
+    transition-duration: 10s;
+    transition-delay: 5s;
+
+
 }
 
 .paragraph{
     background-color: royalblue;
-    z-index: -3;
-    opacity: 50%;
+    z-index: 1;
+    opacity: 95%;
     columns: 2;
-    column-gap: 100px;
+    column-gap: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
     
 }
 
 .child-one{
-    background-color: rgb(194, 32, 209);
-    width: 100px;
-    height: 500px; 
+    background-color: rgb(218, 20, 79);
+    width: 500px;
+    height: 800px; 
     order: 3;
     /* align-self:center; */
-    position:sticky;
-    z-index: 0;
+    position:static;
+    z-index: -2;
+    /* opacity: 75%; */
+    transform: rotate(18deg);
     
 
 }
 .child-two{
-    background-color: rgb(32, 174, 209);
-    width: 100px;
-    height: 650px; 
+    background-color: rgb(26, 12, 158);
+    width: 500px;
+    height: 800px; 
     order: 2;
     /* align-self:auto; */
     /* position:fixed */
-    position:fixed;
+    position:static;
     z-index: -1;
+    opacity: 55%;
 
 }
 .child-three{
     background-color: rgb(156, 209, 32);
-    width: 10px;
-    height: 800PX; 
+    width: 7    00px;
+    height: 800px;
     order: 1;
     /* align-self:auto; */
-    position:fixed;
-    z-index: 3;
-    
-    
-    
+    position:static;
+    z-index: 0;
+    opacity: 35%;
+
 }
 
+.parent1{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-grow: initial, 200%;
+}
+
+.child1{
+    width: 25%;
+    height: 50px;
+    background-color: rgb(119, 79, 20);
+    z-index: 1;
+    opacity: 75%;
+    transform: rotate(-98deg);
+    transition-duration: 10s;
+    transition-delay: 13s;
+    animation-timing-function:ease-in;
+
+}
+.child2{
+    width: 25%;
+    height: 100px;
+    background-color: rgb(210, 245, 10);
+    z-index: -1;
+    opacity: 75%;
+    transform: rotate(-70deg);
+    transition-duration: 10s;
+    transition-delay: 15s;
+    animation-timing-function:ease-in;
+
+}
+.child3{
+    width: 25%;
+    height: 100px
+    background-color: rgb(161, 161, 41);
+    z-index: 1;
+    opacity: 75%;
+    transform: rotate(50deg);
+    transition-duration: 10s;
+    transition-delay: 18s;
+    animation-timing-function:ease-in;
+
+}
