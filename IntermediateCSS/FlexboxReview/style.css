@@ -29,7 +29,7 @@ p{
     transform: rotate(-18deg);
     transition-duration: 10s;
     transition-delay: 5s;
-
+    border-radius: 50%;
 
 }
 
@@ -42,7 +42,8 @@ p{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5px;
-    
+    border-radius: 50%;
+
 }
 
 .child-one{
@@ -55,6 +56,7 @@ p{
     z-index: -2;
     /* opacity: 75%; */
     transform: rotate(18deg);
+    border-radius: 50%;
     
 
 }
@@ -68,6 +70,7 @@ p{
     position:static;
     z-index: -1;
     opacity: 55%;
+    border-radius: 50%;
 
 }
 .child-three{
@@ -79,6 +82,7 @@ p{
     position:static;
     z-index: 0;
     opacity: 35%;
+    border-radius: 50%;
 
 }
 
@@ -100,6 +104,7 @@ p{
     transition-duration: 10s;
     transition-delay: 13s;
     animation-timing-function:ease-in;
+    border-radius: 50%;
 
 }
 .child2{
@@ -112,6 +117,7 @@ p{
     transition-duration: 10s;
     transition-delay: 15s;
     animation-timing-function:ease-in;
+    border-radius: 50%;
 
 }
 .child3{
@@ -124,5 +130,6 @@ p{
     transition-duration: 10s;
     transition-delay: 18s;
     animation-timing-function:ease-in;
+    border-radius: 50%;
 
 }

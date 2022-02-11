@@ -1,5 +1,6 @@
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;    text-align: left;
+
 }
 
 p {
@@ -16,30 +17,59 @@ p {
 
 p {
     line-height: 1.5;
-    letter-spacing: 20px;
+        letter-spacing: 20px;
     font-kerning:10px;
     font-weight: bolder;
     text-align: left;
 }
 
 #span-one {
-    text-decoration: line-through 80px black solid;
     text-emphasis-color: red;    
     }
 
 body {
-    text-shadow: 10px;
     background-color: blue;
-    columns: 2;
+    columns: 3;
 }
 
-h1 {
-    text-align: left;
-
-}
+div>h2 , h1 {
+    color: yellow;
+}   
 
 #lstext {
-    color: yellow;
+    color: green;
+    font-style: italic;
+    font-family: fantasy;
 }
 
+#bottomline {
+    font-size: 6px;
 
+}
+
+#typehere {
+    font-family: cursive;
+    font-size: 24px;
+}
+
+#morecool {
+    font-family: fantasy;
+    
+
+}   
+
+#nc {
+font-family: fantasy;
+font-size: 24px;
+}
+
+#fsid {
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: yellowgreen;
+    border-spacing: 20px;
+}
+
+#h2.yellow {
+    background-color: purple;
+}

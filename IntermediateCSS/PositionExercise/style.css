@@ -85,41 +85,60 @@ body {
   #power {
       position: relative;
       right: 225px;
-  }
+    }
   
   #space {
       position: relative;
       top: 115px;
       right: 0;
-  }
+    }
 
   #soul {
       position: absolute;
       bottom: 0;
       right 0;
-  }
+    }
 
   #reality {
       position:absolute;
       right: 0;
       bottom: 0;
-  }
+    }
 
   #mind {
       position: fixed;
       right: 0;
-  }
+    }
 
   #time {
       position: fixed;
       top: 0;
       right: 0;
-  }
+    }
 
   h1 {
       position: sticky;
       top:0;
       z-index: 3;
-  }
+    }
 
-      
+    #time {
+        z-index: 3;
+    }      
+    #mind {
+        z-index: 1;
+    }      
+    #reality {
+        z-index: 4;
+    }      
+    #soul {
+        z-index: 2;
+    }      
+
+    h2 {
+        position: sticky;
+        top: 65px;
+
+    }
+
+    
