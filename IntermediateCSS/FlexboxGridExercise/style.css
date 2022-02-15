@@ -61,19 +61,24 @@ section:not(#three) {
   
   /* START BELOW THIS LINE */
 
-  section {
+  #one {
     display: flex; 
-    /* justify-content: end; */
+    justify-content: end;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    flex-basis: 400px;
+
 
 
 }
 
-.p-one, .p-two, .p-three, .p-four .p.five, p.six, p.seven .eight{
-    grid: auto;
+#two {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
+
+
 
 
