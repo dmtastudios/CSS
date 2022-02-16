@@ -96,5 +96,29 @@ video {
     background-color: rgb(39, 20, 20);
     transition-delay: .2s;
     transition: ease-in-out;
+    transform: scale(.95);
+}
 
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+#about p {
+    font-style: 20px;
+    min-width: 500px;
+    margin: auto;
+}
+
+
+#about h2 {
+    margin: 40px;
+    color: #4b5163;
+
+}
+
+i {
+    font-size: 56px;
+    margin: 0 5px;
+    color: rgb(21, 44, 44);
 }
