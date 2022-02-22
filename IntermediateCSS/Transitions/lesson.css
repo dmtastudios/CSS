@@ -1,0 +1,36 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(39, 34, 34);
+    transition-property: all;
+    transition-duration: .1s;
+    transition-delay: .1s;
+    transition-timing-function: ease-out;
+    border: double 10px #e4f551;
+    text-align: center;
+    text-justify: 50px;
+    border-radius: 60% 60% 10% 10%;
+    color: aliceblue;
+
+
+    
+}
+
+div:hover{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(41, 41, 102);
+    transform:rotate(360deg);
+    border: double 10px green;
+    position: absolute;
+    border-radius: 10% 10% 60% 60%;
+
+}
+
+i{
+    color: aqua;
+    font-size: 50px;
+    text-align: center;
+
+
+}

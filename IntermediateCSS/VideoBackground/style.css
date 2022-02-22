@@ -122,3 +122,12 @@ i {
     margin: 0 5px;
     color: rgb(21, 44, 44);
 }
+
+i:hover {
+    background-color: white(252, 248, 248);
+    transition-delay: .2s;
+    transition: ease-in-out;
+    transform: scale(.75);   
+}
+
+

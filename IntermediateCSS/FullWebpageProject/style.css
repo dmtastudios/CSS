@@ -1,0 +1,308 @@
+/* Importing Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+/* Basic Color  */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;    
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #c2cef3;
+    background-image: url(Images/mufid-majnun-dfP41bjiWVM-unsplash.jpg);
+
+}   
+
+/* Container Text Properties  */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}   
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+
+}
+
+.btn-1 {
+    height: 38px;
+    background-color: #b82b2b;
+    color: aliceblue;
+    border: 0px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-1:hover {
+    color: gray;
+    background-color: #8b1e1e;
+}
+
+.light, .dark {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.light {
+    background-color: rgb(185, 179, 179);
+    color: rgb(41, 39, 39);
+}
+
+.dark {
+    background-color: rgb(41, 39, 39);
+    color: rgb(41, 39, 39);
+}
+
+/* Header  */
+
+header {
+    /* margin: 0; */
+    background-color: #162440;
+    border: 250px;
+    border-radius: 1%;
+    /* Setting min-height so the header section can expand if needed  */
+    min-height: 70px;
+    color: #c2cef3;
+    border-bottom: 3px solid #b82b2b;
+    padding: 5px 0px; 
+    /* Margin outside border, padding inside border  */
+    /* background-image: url(Images/laptop.png); */
+
+
+
+}
+
+header>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+header li {
+    /* overflow-wrap: break-word; */
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a {
+    color: #c2cef3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header span {
+    color: #c2cef3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#highlight, #current a {
+    color: #b82b2b;
+    font-weight: 700;    
+}
+
+a:hover {
+    background-color: #c2cef3;
+    color:rgb(41, 39, 39);
+    font-weight: 700;
+    
+}
+
+#quote {
+    color: #c2cef3;
+}
+
+/* Showcase  */
+
+#showcase {
+    min-height: 400px;
+    background-image: url(Images/laptop.png);
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #c2cef3;
+}
+
+#showcase h1 {
+    color: #c2cef3;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Newsletter  */
+
+#newsletter {
+    background-color: #162440;
+    padding: 15px;
+    color: #c2cef3;
+    border-bottom: 2px solid #b82b2b;
+    border-top: 2px solid #b82b2b;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#newsletter input {
+    color: gray;
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Boxes  */
+
+#boxes > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+
+}
+
+i {
+    font-size: 125px;
+}
+
+.fa-html5 {
+    color: #b82b2b;
+}
+.fa-css3-alt {
+    color: #2c5fc7;
+}
+.fa-js {
+    color:#25751a;
+}
+.fa-html5:hover {
+    color: #25751a;
+}
+.fa-css3-alt:hover {
+    color: #6c91db;
+}
+.fa-js:hover {
+    color:#b82b2b;
+}
+
+/* About  */
+#about {
+    background-color: #162440;
+    padding: 20px;
+    border-top: 2px solid #b82b2b;
+    border-bottom: 2px solid #b82b2b;
+
+
+}
+
+#about > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+#about .main-col {
+    color:#6c91db;
+}
+
+#about .main-col:hover {
+    color:white;
+    /* display: flex; */
+}
+
+#about .sidebar {
+    margin-top: 10px;
+}
+
+/* Services  */
+
+#services > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+footer p {
+    padding: 10px 10px 5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr ;
+}
+
+#services li {
+    border: 1px solid #162440;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #c2cef3;
+}
+
+#services .sidebar {
+    margin-top: 10px;
+}
+
+#services input, #services textarea {
+    padding: 5px;
+    width: 90%;
+    
+}
+
+#services h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page-title {
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.sidebar {
+
+
+}
+
+.btn-1 {
+    border-radius: 5%;
+    
+
+
+}
+
+
+
+#dmta {
+    color: #2c5fc7;
+    font-size: 24pt;
+}
