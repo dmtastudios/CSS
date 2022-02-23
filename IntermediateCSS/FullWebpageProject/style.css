@@ -71,6 +71,7 @@ ul {
 }
 
 .dark {
+    border: #2c5fc7 solid 1px;
     border-radius: 5px;
     background-image: url(Images/cover.png);
 }
@@ -352,6 +353,8 @@ h3 {
 
 #services {
     color: black;
+    border:#2c5fc7 solid 1px;
+
 }
 
 
@@ -412,7 +415,7 @@ footer p {
 }
 
 .btn-1 {
-    border-radius: 2%;
+    border-radius: 5%;
     font-family: 'Oxygen', sans-serif;   
 
 }
