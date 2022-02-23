@@ -467,25 +467,26 @@ video {
 }
 
 @media (max-width: 768px)  {
-    header > .container, #newsletter > .container, #boxes > .container {
+    header > .container, #newsletter > .container, #boxes > .container, aside {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
-    {        
-        #showcase .container 
+    /* {         */
+        /* #showcase .container  */
             padding-bottom: 50px;
     }
 
     .box {
         width: 80%;
-    }
+    }        
+  /* Z  } */
+        /* #about > .container, */
+        /* #services > .container */
 
-    #about > .container,
-    #services > .container
-
-}   
-
+#name {
+    color: #c2cef3;
+}
 
 
 
