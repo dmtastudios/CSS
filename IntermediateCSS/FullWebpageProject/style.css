@@ -27,10 +27,13 @@ body {
     border-radius: 5px;
     margin: 15px;
     padding: 15px;
+    border: #1a3275 solid 2px;
 }
 
 #p1:hover, #p2:hover, #p3:hover, #p4:hover, #p5:hover {
     color: #c2cef3;
+    transform: scale(125%);
+    z-index: 3;
 }
 
 /* Container Text Properties  */
@@ -80,11 +83,13 @@ ul {
 .light {
     background-color: rgb(185, 179, 179);
     color: rgb(41, 39, 39);
+    border: #2c5fc7 solid 2px;
+    border-radius: 5px;
 }
 
 .dark {
     background-color: rgb(41, 39, 39);
-    color: rgb(41, 39, 39);
+    color: rgb(2, 2, 2);
 }
 
 /* Header  */
@@ -288,11 +293,12 @@ i {
     ;
 }
 
-h3 {
+h3, h2 {
     text-transform: uppercase;
     font-size: 18px;
     background-color: #020202;
     border-radius: 5px;
+    border: #1a3275 solid 1px;
 }
 
 /* About  */
@@ -349,13 +355,11 @@ h3 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     border:#2c5fc7 solid 1px;
-
 }
 
 #services {
     color: black;
-    border:#2c5fc7 solid 1px;
-
+    border:#2c5fc7 solid 1px;    
 }
 
 
@@ -381,10 +385,11 @@ footer p {
 }
 
 #services li {
-    border: 1px solid #162440;
+    border: 2px solid #2c5fc7;
     padding: 20px;
     margin-bottom: 5px;
     background-color: #c2cef3;
+    border-radius: 5px;
 }
 
 #services .sidebar {
@@ -482,17 +487,6 @@ video {
 
     .box {
         width: 80%;
-    }        
-  /* Z  } */
-        /* #about > .container, */
-        /* #services > .container */
+    }
 
-
-        .span1 {
-
-
-        }
-
-
-
-
+    
