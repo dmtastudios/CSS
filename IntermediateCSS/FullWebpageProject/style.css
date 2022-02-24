@@ -367,7 +367,10 @@ footer {
     border-bottom: 1px solid #2c5fc7;
     border-left: 1px solid #2c5fc7;
     border-right: 1px solid #2c5fc7;
-    padding: 10px 0px; 
+    padding: 5px; 
+    text-align: center;
+    text-transform: uppercase;
+    
 }
 
 footer p {
@@ -426,7 +429,7 @@ footer p {
 
 #dmta {
     color: #2c5fc7;
-    font-size: 24pt;
+    font-size: 12pt;
     font-weight: 400;
     display: flex center;
 }   
@@ -485,7 +488,10 @@ video {
         /* #services > .container */
 
 
+        .span1 {
 
+
+        }
 
 
 
