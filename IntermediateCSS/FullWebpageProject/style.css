@@ -83,7 +83,7 @@ ul {
 .light {
     background-color: rgb(185, 179, 179);
     color: rgb(41, 39, 39);
-    border: #2c5fc7 solid 2px;
+    border: #2c5fc7 solid 1px;
     border-radius: 5px;
 }
 
@@ -189,6 +189,7 @@ a:hover {
     color: #c2cef3;
     overflow: hidden;
     border:#162440 solid 1px;
+    border-bottom: 1px solid #2c5fc7;
 }
 
 #showcase h1 {
@@ -244,7 +245,7 @@ i {
 }
 
 .fa-html5 {
-    color: #b82b2b;
+    color: #e73b3b;
 }
 .fa-css3-alt {
     color: #7599e0;
@@ -298,7 +299,7 @@ h3, h2 {
     font-size: 18px;
     background-color: #020202;
     border-radius: 5px;
-    border: #1a3275 solid 1px;
+    border: #2c5fc7 solid 1px;
 }
 
 /* About  */
@@ -326,7 +327,7 @@ h3, h2 {
 
 #about .main-col {
     color:#c2cef3;
-    border:#162440 solid 1px;
+    /* border:#2c5fc7 solid 1px; */
     border-radius: 5px;
 
 }
@@ -334,7 +335,7 @@ h3, h2 {
 #about .main-col:hover {
     color:#020202;
     background-color:#2c5fc7;
-    border:#162440 solid 1px;
+    /* border:#162440 solid 1px; */
     border-radius: 5px;
 }
 
@@ -411,6 +412,7 @@ footer p {
     text-transform: uppercase;
     font-size: 48px;
     text-align: center;
+    align-content: center;
 }
 
 #quote {
@@ -465,6 +467,8 @@ video {
     top: 0;
     left: 0;
     z-index: -3;
+    filter: blur(3px);
+    opacity: 50%;
 }
 
 .page-title {
@@ -473,6 +477,16 @@ video {
     padding: 10px;
     margin: 0;   
 }
+
+input, textarea {
+    background-color:#162440;
+    color: #c2cef3;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif; 
+    resize: none;
+}
+
+
 
 @media (max-width: 768px)  {
     header > .container, #newsletter > .container, #boxes > .container, aside {
@@ -488,5 +502,3 @@ video {
     .box {
         width: 80%;
     }
-
-    
